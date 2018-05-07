@@ -8,7 +8,8 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 module.exports = {
     entry: {
         "jquery":"./dist/js/jquery",
-        "stepBar":"./dist/js/stepBar"
+        "stepBar":"./dist/js/stepBar",
+        "spillover":"./dist/js/spillover"
     },
     output: {
         path:path.resolve(__dirname,"build/"),
