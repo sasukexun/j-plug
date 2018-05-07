@@ -10,7 +10,7 @@
         titleColor:进度条标题初始颜色
         tipColor:进度条图标颜色
         tipStep:进度条走过的颜色
-        title:可接受数组
+        title:定义一串数组
         index:初始化进度步数
 
 ####  可使用的方法
