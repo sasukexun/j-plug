@@ -24,10 +24,11 @@ module.exports = {
     },
     plugins:[
         // 每个成员代表一个插件
+        new webpack.BannerPlugin('This file is created by sasukexun'),
         new UglifyJsPlugin
     ]
     // plugins: [
-    //     new webpack.BannerPlugin('This file is created by sasukexun'),
+    //    new webpack.BannerPlugin('This file is created by sasukexun'),
     //     new webpack.HotModuleReplacementPlugin(),
     //     new HtmlWebpackPlugin({
     //         title: "测试页面",
