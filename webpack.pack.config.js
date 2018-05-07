@@ -3,6 +3,7 @@ var path = require('path');
 var HtmlWebpackPlugin=require("html-webpack-plugin");
 var autoprefixer = require('autoprefixer');
 var WebpackDevServer = require("webpack-dev-server");
+var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 module.exports = {
     entry: {
@@ -21,6 +22,10 @@ module.exports = {
             {test: /\.(png|jpg|gif)$/, loader: 'url-loader?limit=40000'}
         ]
     },
+    plugins:[
+        // 每个成员代表一个插件
+        new UglifyJsPlugin
+    ]
     // plugins: [
     //     new webpack.BannerPlugin('This file is created by sasukexun'),
     //     new webpack.HotModuleReplacementPlugin(),
