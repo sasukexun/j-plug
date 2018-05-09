@@ -9,7 +9,8 @@ module.exports = {
     entry: {
         "jquery":"./dist/js/jquery",
         "stepBar":"./dist/js/stepBar",
-        "spillover":"./dist/js/spillover"
+        "spillover":"./dist/js/spillover",
+        "share":"./dist/js/share",
     },
     output: {
         path:path.resolve(__dirname,"build/"),
