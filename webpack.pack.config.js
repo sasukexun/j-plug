@@ -4,13 +4,21 @@ var HtmlWebpackPlugin=require("html-webpack-plugin");
 var autoprefixer = require('autoprefixer');
 var WebpackDevServer = require("webpack-dev-server");
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-
+var d = new Date();
+var vYear = d.getFullYear();
+var vMon = d.getMonth() + 1;
+var vDay = d.getDate();
+var h = d.getHours();
+var m = d.getMinutes();
+var se = d.getSeconds();
+datestr = vYear + "-" + (vMon < 10 ? "0" + vMon : vMon) + "-" + (vDay < 10 ? "0" + vDay : vDay);
 module.exports = {
     entry: {
+        "all":"./dist/js/all",
         "jquery":"./dist/js/jquery",
         "stepBar":"./dist/js/stepBar",
         "spillover":"./dist/js/spillover",
-        "share":"./dist/js/share",
+        "share":"./dist/js/share"
     },
     output: {
         path:path.resolve(__dirname,"build/"),
@@ -26,7 +34,7 @@ module.exports = {
     },
     plugins:[
         // 每个成员代表一个插件
-        new webpack.BannerPlugin('This file is created by sasukexun'),
+        new webpack.BannerPlugin('This file is created by sasukexun'+datestr),
         new UglifyJsPlugin
     ]
     // plugins: [
@@ -63,5 +71,7 @@ module.exports = {
     //     }
     // }
 };
+
+
 
 

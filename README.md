@@ -1,4 +1,5 @@
-# 目录
+# 目录(可引用all.js 包含jquery和目录里面的所有插件)
+
 ## stepBar:依赖于jquery
 
 ### 需要引入build 里面的同名JS文件，使用方法参考test里面的文件，css样式自定义
