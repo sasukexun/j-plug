@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-.gitgnore
-node_modules
-.idea
 dist
+node_modules
+.gitignore
+webpack.pack.config.js
+package
