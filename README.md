@@ -2,7 +2,7 @@
 
 ## stepBar:依赖于jquery
 
-### 需要引入build 里面的同名JS文件，使用方法参考test里面的文件，css样式自定义
+### 需要引入build 里面的同名JS文件，使用方法参考test里面的文件
 
 ### 使用方法
 
@@ -21,7 +21,7 @@
 
 ## spillover:依赖于jquery的文本溢出插件
 
-### 需要引入build 里面的同名JS文件，必须带上test同名文件里面的.slh:after 和对文本做line-height的设置
+### 需要引入build 里面的同名JS文件
 
 ### 使用方法
 
@@ -43,4 +43,15 @@
         sina:分享到新浪微博需要绑定的节点,
         renren:分享到人人网需要绑定的节点,
         douban:分享到豆瓣需要绑定的节点,
+
+## Slider:依赖于jquery的轮播（未完成）
+
+### 需要引入build 里面的同名JS文件
+
+### 使用方法
+
+#### 可使用的参数
+      initialSlide:初始化展示轮播的图
+      speed:滑动速度
+
 
