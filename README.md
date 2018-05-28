@@ -44,14 +44,17 @@
         renren:分享到人人网需要绑定的节点,
         douban:分享到豆瓣需要绑定的节点,
 
-## Slider:依赖于jquery的轮播（未完成）
+## Slider:依赖于jquery的轮播，使用方法参考test里面的文件
 
 ### 需要引入build 里面的同名JS文件
 
 ### 使用方法
 
 #### 可使用的参数
-      initialSlide:初始化展示轮播的图
-      speed:滑动速度
+       initialSlide:初始化从哪张幻灯图开始（num）,
+       speed:速度（num）,
+       button:是否带有两边按的按钮,
+       pageIcon:是否带有下标的分页导航,
+       autoPlay:是否自动轮播
 
 
