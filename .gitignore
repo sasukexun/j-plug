@@ -3,4 +3,4 @@ dist
 node_modules
 .gitignore
 webpack.pack.config.js
-package
+package.json
