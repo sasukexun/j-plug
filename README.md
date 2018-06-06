@@ -56,5 +56,3 @@
        button:是否带有两边按的按钮,
        pageIcon:是否带有下标的分页导航,
        autoPlay:是否自动轮播
-
-
