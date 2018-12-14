@@ -5,6 +5,7 @@
   "main": "webpack.dev.config.js",
   "dependencies": {
     "autoprefixer": "^7.2.4",
+    "codemirror": "^5.40.2",
     "css-loader": "^0.28.8",
     "express": "^4.16.2",
     "file-loader": "^1.1.6",
