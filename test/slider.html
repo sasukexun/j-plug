@@ -10,30 +10,24 @@
 </head>
 
 <body>
-  <div class="slider-container ">
-    <div class="slider-wrapper">
-      <div class="slider-slide">
-        <img src="../build/img/1.jpg" alt="">
-      </div>
-      <div class="slider-slide">
-        <img src="../build/img/2.jpg" alt="">
-      </div>
-      <div class="slider-slide">
-        <img src="../build/img/3.jpg" alt="">
-      </div>
-      <div class="slider-slide">
-        <img src="../build/img/1.jpg" alt="">
-      </div>
-    </div>
-
+<div class="slider">
+  <div class="slider-wrapper">
+    <ul class="slider-box">
+      <li class="slider-item"><img src="../build/img/1.jpg" alt=""></li>
+      <li class="slider-item"><img src="../build/img/2.jpg" alt=""></li>
+      <li class="slider-item"><img src="../build/img/3.jpg" alt=""></li>
+      <li class="slider-item"><img src="../build/img/4.jpg" alt=""></li>
+      <li class="slider-item"><img src="../build/img/5.jpg" alt=""></li>
+    </ul>
+    <div class="carousel-indicators"></div>
   </div>
-
-  <script type="text/javascript" src="./../build/pack/slider.js"></script>
+</div>
+  <link rel="stylesheet" href="../dist/css/slider.css">
+  <script type="text/javascript" src="../dist/js/slider.js"></script>
   <script>
-    $(".slider-container").Slider({
-      initialSlide: 1,
-      pagination: true
-    })
+    $(".slider-wrapper").Slider({
+      initialSlide:1
+    });
   </script>
 </body>
 
