@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../build/pack/jquery.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+<div class="slider">
+    <div class="slider-wrapper">
+        <ul class="slider-box">
+            <li class="slider-item" ><img src="../build/img/1.jpg"></li>
+            <li class="slider-item" ><img src="../build/img/2.jpg"></li>
+            <li class="slider-item" ><img src="../build/img/3.jpg"></li>
+            <li class="slider-item" ><img src="../build/img/4.jpg"></li>
+            <li class="slider-item" ><img src="../build/img/5.jpg"></li>
+        </ul>
+        <div class="carousel-indicators">
+        </div>
+        <!--<span class="carousel-btn carousel-prev-btn"></span>-->
+        <!--<span class="carousel-btn carousel-next-btn"></span>-->
+    </div>
+</div>
+<script src="js/slider.js"></script>
+<script>
+    $(".slider-wrapper").Slider({
+        initialSlide:1
+    });
+</script>
+</body>
+</html>
