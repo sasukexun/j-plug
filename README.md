@@ -43,7 +43,15 @@
         sina:分享到新浪微博需要绑定的节点,
         renren:分享到人人网需要绑定的节点,
         douban:分享到豆瓣需要绑定的节点,
+## Slider:依赖于jquery的分享插件
 
+### 需要引入build 里面的同名JS文件
 
+### 使用方法
 
-
+#### 可使用的参数
+            initialSlide:num,
+            speed:num,
+            button:bool,
+            pageIcon:bool,
+            autoPlay:bool
